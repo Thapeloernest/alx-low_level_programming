@@ -1,4 +1,5 @@
-#includes "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 /**
  * leet - encode into 1337speak
  * @n: input value
@@ -22,3 +23,5 @@ char *leet(char *n)
 	}
 	return (n);
 }
+
+#endif /* MAIN_H */
