@@ -1,10 +1,2 @@
 #!/bin/bash
-CFILE="0-preprocessor"
-
-gcc -E $CFILE > c
-
-if [$? -ne 0 ]; then
-        echo "gcc command failed"
-else
-        echo "gcc command succeeded"
-fi
+gcc -E $CFILE
