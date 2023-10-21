@@ -5,7 +5,7 @@
  * of 3 or 5 below 1024
  * Return: Always 0 (success)
  */
-int main(void
+int main(void)
 {
 	unsigned long int sum3, sum5, sum;
 	int i;
@@ -20,13 +20,14 @@ int main(void
 		{
 			sum3 = sum3 + i;
 		}
+
 		else if ((i % 5) == 0)
 		}
 			sum5 = sum5 + i;
 		}
 	}
 	sum = sum3 + sum5;
-	printf("%lu\n", sum)
+	printf("%lu\n", sum);
 	return (0);
 }
 
