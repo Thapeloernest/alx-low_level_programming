@@ -18,6 +18,7 @@
 void print_number(int i, int j)
 {
 	int k;
+
 	k = j * i;
 
 	if (j == 0)
