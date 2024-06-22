@@ -1,4 +1,4 @@
-#include (stdio.h>
+#include <stdio.h>
 
 /**
  * main - prints all possible combinations of single-digit numbers
@@ -6,17 +6,13 @@
  */
 int main(void)
 {
-	int n;
-	
-	for (n = 48; n < 58; n++)
+	int i;
+
+	for (i = 0; i < 10; i++)
 	{
-		putchar(n);
-		if (n != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(i + '0');
+		putchar(',');
+		putchar(' ');
 	}
-	putchar('\n');
 	return (0);
 }
