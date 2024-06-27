@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * prin_square - function print a square
- * @size: size of square
- * Description: Can only use _putchar to pring. Use '#' to print int square
+ * print_square - print square with #
+ *
+ * @size: no of # square
  */
 
 void print_square(int size)
